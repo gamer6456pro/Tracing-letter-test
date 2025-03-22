@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Draw Letter with Transparent Background Letter</title>
+
+</head>
+<body>
+
+<h1 class = "center">Draw a Letter with Transparent Background Letter</h1>
+<div id="controls">
+    <input type="text" id="letterInput" placeholder="Enter a letter" maxlength="1" />
+    <button onclick="setLetter()">Set Letter</button>
+    <button onclick="clearCanvas()">Clear</button>
+    <button onclick="saveDrawing()">Save</button>
+</div>
+
+<canvas id="drawingCanvas" width="600" height="600"></canvas>
+
+<script src="draw.js"></script>
+
+</body>
+</html>
